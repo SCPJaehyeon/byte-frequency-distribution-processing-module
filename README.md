@@ -22,9 +22,7 @@ enabled = yes
 ```
 
 2. Add the information at `$your_cuckoo_instance/cuckoo/common/config.py`.
-```console
-$ vim $your_cuckoo_instance/cuckoo/common/config.py
-# ...
+```python
 class Config(object):
     configuration = {
         # ...
@@ -35,14 +33,13 @@ class Config(object):
             },
         },
     }
-# ...
 ```
 
 3. Copy the file to `$your_cuckoo_instance/cuckoo/processing/`.
-- `cuckoo/processing/bytes.py`
+    - `cuckoo/processing/bytes.py`
 
 4. Copy the file to `$your_cuckoo_instance/tests/`.
-- `tests/test_processing_bfd.py`
+    - `tests/test_processing_bfd.py`
 
 5. Test
 ```console
