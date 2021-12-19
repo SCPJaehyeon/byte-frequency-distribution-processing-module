@@ -1,11 +1,11 @@
 # byte-frequency-distribution-processing-module
-Cuckoo Sandbox Processing module - Bytes Frequence Distribution
+Cuckoo Sandbox Processing module - *bytes-frequence-distribution*
 
 ## Description
 Cuckoo Sandbox is the leading open source automated malware analysis system. This module is installed directly into the processing modules directory of a Cuckoo instance. It accesses the file path of the task with 'category' as 'file' and creates a byte sequence distribution table. The output value for each byte is a percentage of the total file size. In addition, shannon entropy information is also provided to provide useful information for analysis. This module is designed and tested on Cuckoo version 2.0.7. To use the module, refer to the contents below.
 
 ## Dependiencies
-`bytes-frequence-distribution` is self-contained. The module has no dependencies.
+*bytes-frequence-distribution* is self-contained. The module has no dependencies.
 
 ## Requirements
 This module is for Cuckoo Sandbox 2.0.7 which can be obtained here:
