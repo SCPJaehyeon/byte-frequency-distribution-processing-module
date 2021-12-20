@@ -46,6 +46,11 @@ class Config(object):
 $ pytest tests/test_processing_bfd.py
 ```
 
+6. Setup
+```console
+$ python $your_cuckoo_instance/setup.py sdist develop
+```
+
 7. Analysis
 ```console
 $ cuckoo
