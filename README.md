@@ -49,6 +49,7 @@ $ pytest tests/test_processing_bfd.py
 6. Setup
 ```console
 $ python $your_cuckoo_instance/setup.py sdist develop
+$ pip install $your_cuckoo_instance/dist/Cuckoo-2.0.7.tar.gz
 ```
 
 7. Analysis
